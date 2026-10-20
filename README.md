@@ -13,6 +13,13 @@ evolución, la comparativa y las alertas de bajada.
 > commits only on change, and GitHub Pages renders the trend chart, comparison
 > table and drop alerts. MIT licensed.
 
+## Capturas del sitio (reales)
+
+Sitio publicado en GitHub Pages: https://esvindal.github.io/seguimiento-de-precios/
+
+![Sitio en escritorio](docs/capturas/docs-1440.png)
+<img src="docs/capturas/docs-390.png" width="320" alt="Sitio en móvil">
+
 ## Estructura
 
 ```
