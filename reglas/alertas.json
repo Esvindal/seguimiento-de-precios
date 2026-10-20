@@ -1,0 +1,8 @@
+[
+  {
+    "tipo": "bajada_porcentaje",
+    "producto": "*",
+    "umbral": 10,
+    "descripcion": "Avisar si cualquier producto baja mas de 10% respecto de la medicion anterior"
+  }
+]
