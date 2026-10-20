@@ -1,0 +1,667 @@
+{
+  "fuente": "https://books.toscrape.com",
+  "aviso": "Datos de books.toscrape.com, sitio publicado para practicar scraping. Los precios son ficticios y pueden no cambiar entre corridas.",
+  "actualizado_en": "2026-10-20T15:52:46Z",
+  "productos": {
+    "a-light-in-the-attic_1000": {
+      "titulo": "A Light in the Attic",
+      "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 51.77,
+          "disponible": true
+        }
+      ]
+    },
+    "tipping-the-velvet_999": {
+      "titulo": "Tipping the Velvet",
+      "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 53.74,
+          "disponible": true
+        }
+      ]
+    },
+    "soumission_998": {
+      "titulo": "Soumission",
+      "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 50.1,
+          "disponible": true
+        }
+      ]
+    },
+    "sharp-objects_997": {
+      "titulo": "Sharp Objects",
+      "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 47.82,
+          "disponible": true
+        }
+      ]
+    },
+    "sapiens-a-brief-history-of-humankind_996": {
+      "titulo": "Sapiens: A Brief History of Humankind",
+      "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 54.23,
+          "disponible": true
+        }
+      ]
+    },
+    "the-requiem-red_995": {
+      "titulo": "The Requiem Red",
+      "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 22.65,
+          "disponible": true
+        }
+      ]
+    },
+    "the-dirty-little-secrets-of-getting-your-dream-job_994": {
+      "titulo": "The Dirty Little Secrets of Getting Your Dream Job",
+      "url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 33.34,
+          "disponible": true
+        }
+      ]
+    },
+    "the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993": {
+      "titulo": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+      "url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 17.93,
+          "disponible": true
+        }
+      ]
+    },
+    "the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992": {
+      "titulo": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+      "url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 22.6,
+          "disponible": true
+        }
+      ]
+    },
+    "the-black-maria_991": {
+      "titulo": "The Black Maria",
+      "url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 52.15,
+          "disponible": true
+        }
+      ]
+    },
+    "starving-hearts-triangular-trade-trilogy-1_990": {
+      "titulo": "Starving Hearts (Triangular Trade Trilogy, #1)",
+      "url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 13.99,
+          "disponible": true
+        }
+      ]
+    },
+    "shakespeares-sonnets_989": {
+      "titulo": "Shakespeare's Sonnets",
+      "url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 20.66,
+          "disponible": true
+        }
+      ]
+    },
+    "set-me-free_988": {
+      "titulo": "Set Me Free",
+      "url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 17.46,
+          "disponible": true
+        }
+      ]
+    },
+    "scott-pilgrims-precious-little-life-scott-pilgrim-1_987": {
+      "titulo": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+      "url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 52.29,
+          "disponible": true
+        }
+      ]
+    },
+    "rip-it-up-and-start-again_986": {
+      "titulo": "Rip it Up and Start Again",
+      "url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 35.02,
+          "disponible": true
+        }
+      ]
+    },
+    "our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985": {
+      "titulo": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+      "url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 57.25,
+          "disponible": true
+        }
+      ]
+    },
+    "olio_984": {
+      "titulo": "Olio",
+      "url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 23.88,
+          "disponible": true
+        }
+      ]
+    },
+    "mesaerion-the-best-science-fiction-stories-1800-1849_983": {
+      "titulo": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+      "url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 37.59,
+          "disponible": true
+        }
+      ]
+    },
+    "libertarianism-for-beginners_982": {
+      "titulo": "Libertarianism for Beginners",
+      "url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 51.33,
+          "disponible": true
+        }
+      ]
+    },
+    "its-only-the-himalayas_981": {
+      "titulo": "It's Only the Himalayas",
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 45.17,
+          "disponible": true
+        }
+      ]
+    },
+    "in-her-wake_980": {
+      "titulo": "In Her Wake",
+      "url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 12.84,
+          "disponible": true
+        }
+      ]
+    },
+    "how-music-works_979": {
+      "titulo": "How Music Works",
+      "url": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 37.32,
+          "disponible": true
+        }
+      ]
+    },
+    "foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978": {
+      "titulo": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+      "url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 30.52,
+          "disponible": true
+        }
+      ]
+    },
+    "chase-me-paris-nights-2_977": {
+      "titulo": "Chase Me (Paris Nights #2)",
+      "url": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 25.27,
+          "disponible": true
+        }
+      ]
+    },
+    "black-dust_976": {
+      "titulo": "Black Dust",
+      "url": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 34.53,
+          "disponible": true
+        }
+      ]
+    },
+    "birdsong-a-story-in-pictures_975": {
+      "titulo": "Birdsong: A Story in Pictures",
+      "url": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 54.64,
+          "disponible": true
+        }
+      ]
+    },
+    "americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974": {
+      "titulo": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+      "url": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 22.5,
+          "disponible": true
+        }
+      ]
+    },
+    "aladdin-and-his-wonderful-lamp_973": {
+      "titulo": "Aladdin and His Wonderful Lamp",
+      "url": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 53.13,
+          "disponible": true
+        }
+      ]
+    },
+    "worlds-elsewhere-journeys-around-shakespeares-globe_972": {
+      "titulo": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+      "url": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 40.3,
+          "disponible": true
+        }
+      ]
+    },
+    "wall-and-piece_971": {
+      "titulo": "Wall and Piece",
+      "url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 44.18,
+          "disponible": true
+        }
+      ]
+    },
+    "the-four-agreements-a-practical-guide-to-personal-freedom_970": {
+      "titulo": "The Four Agreements: A Practical Guide to Personal Freedom",
+      "url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 17.66,
+          "disponible": true
+        }
+      ]
+    },
+    "the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969": {
+      "titulo": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+      "url": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 31.05,
+          "disponible": true
+        }
+      ]
+    },
+    "the-elephant-tree_968": {
+      "titulo": "The Elephant Tree",
+      "url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 23.82,
+          "disponible": true
+        }
+      ]
+    },
+    "the-bear-and-the-piano_967": {
+      "titulo": "The Bear and the Piano",
+      "url": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 36.89,
+          "disponible": true
+        }
+      ]
+    },
+    "sophies-world_966": {
+      "titulo": "Sophie's World",
+      "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 15.94,
+          "disponible": true
+        }
+      ]
+    },
+    "penny-maybe_965": {
+      "titulo": "Penny Maybe",
+      "url": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 33.29,
+          "disponible": true
+        }
+      ]
+    },
+    "maude-1883-1993she-grew-up-with-the-country_964": {
+      "titulo": "Maude (1883-1993):She Grew Up with the country",
+      "url": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 18.02,
+          "disponible": true
+        }
+      ]
+    },
+    "in-a-dark-dark-wood_963": {
+      "titulo": "In a Dark, Dark Wood",
+      "url": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 19.63,
+          "disponible": true
+        }
+      ]
+    },
+    "behind-closed-doors_962": {
+      "titulo": "Behind Closed Doors",
+      "url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 52.22,
+          "disponible": true
+        }
+      ]
+    },
+    "you-cant-bury-them-all-poems_961": {
+      "titulo": "You can't bury them all: Poems",
+      "url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 33.63,
+          "disponible": true
+        }
+      ]
+    },
+    "slow-states-of-collapse-poems_960": {
+      "titulo": "Slow States of Collapse: Poems",
+      "url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 57.31,
+          "disponible": true
+        }
+      ]
+    },
+    "reasons-to-stay-alive_959": {
+      "titulo": "Reasons to Stay Alive",
+      "url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 26.41,
+          "disponible": true
+        }
+      ]
+    },
+    "private-paris-private-10_958": {
+      "titulo": "Private Paris (Private #10)",
+      "url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 47.61,
+          "disponible": true
+        }
+      ]
+    },
+    "higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957": {
+      "titulo": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+      "url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 23.11,
+          "disponible": true
+        }
+      ]
+    },
+    "without-borders-wanderlove-1_956": {
+      "titulo": "Without Borders (Wanderlove #1)",
+      "url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 45.07,
+          "disponible": true
+        }
+      ]
+    },
+    "when-we-collided_955": {
+      "titulo": "When We Collided",
+      "url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 31.77,
+          "disponible": true
+        }
+      ]
+    },
+    "we-love-you-charlie-freeman_954": {
+      "titulo": "We Love You, Charlie Freeman",
+      "url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 50.27,
+          "disponible": true
+        }
+      ]
+    },
+    "untitled-collection-sabbath-poems-2014_953": {
+      "titulo": "Untitled Collection: Sabbath Poems 2014",
+      "url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 14.27,
+          "disponible": true
+        }
+      ]
+    },
+    "unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952": {
+      "titulo": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+      "url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 44.18,
+          "disponible": true
+        }
+      ]
+    },
+    "unicorn-tracks_951": {
+      "titulo": "Unicorn Tracks",
+      "url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 18.78,
+          "disponible": true
+        }
+      ]
+    },
+    "unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950": {
+      "titulo": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+      "url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 25.52,
+          "disponible": true
+        }
+      ]
+    },
+    "tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949": {
+      "titulo": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+      "url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 16.28,
+          "disponible": true
+        }
+      ]
+    },
+    "throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948": {
+      "titulo": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+      "url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 31.12,
+          "disponible": true
+        }
+      ]
+    },
+    "this-one-summer_947": {
+      "titulo": "This One Summer",
+      "url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 19.49,
+          "disponible": true
+        }
+      ]
+    },
+    "thirst_946": {
+      "titulo": "Thirst",
+      "url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 17.27,
+          "disponible": true
+        }
+      ]
+    },
+    "the-torch-is-passed-a-harding-family-story_945": {
+      "titulo": "The Torch Is Passed: A Harding Family Story",
+      "url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 19.09,
+          "disponible": true
+        }
+      ]
+    },
+    "the-secret-of-dreadwillow-carse_944": {
+      "titulo": "The Secret of Dreadwillow Carse",
+      "url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 56.13,
+          "disponible": true
+        }
+      ]
+    },
+    "the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943": {
+      "titulo": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+      "url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 56.41,
+          "disponible": true
+        }
+      ]
+    },
+    "the-past-never-ends_942": {
+      "titulo": "The Past Never Ends",
+      "url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 56.5,
+          "disponible": true
+        }
+      ]
+    },
+    "the-natural-history-of-us-the-fine-art-of-pretending-2_941": {
+      "titulo": "The Natural History of Us (The Fine Art of Pretending #2)",
+      "url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+      "precios": [
+        {
+          "ts": "2026-10-20T15:52:46Z",
+          "precio": 45.22,
+          "disponible": true
+        }
+      ]
+    }
+  }
+}

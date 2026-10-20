@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>seguimiento-de-precios — pipeline sin servidor sobre GitHub Actions</title>
+<meta name="description" content="Demo funcional: un workflow de GitHub Actions corre un scraper cada 6 horas, guarda el historial en JSON y esta página muestra la evolución, la comparativa y las alertas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="top">
+  <div class="contenedor top-fila">
+    <span class="marca">seguimiento-de-precios</span>
+    <nav aria-label="Secciones">
+      <a href="#como">Cómo funciona</a>
+      <a href="#alertas">Alertas</a>
+      <a href="#evolucion">Evolución</a>
+      <a href="#tabla">Comparativa</a>
+    </nav>
+    <a class="boton" href="https://github.com/USUARIO/seguimiento-de-precios">Ver el código</a>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="hero contenedor">
+    <h1>Seguimiento de precios<br>sin servidor.</h1>
+    <p class="bajada">Un workflow de GitHub Actions corre este scraper cada seis
+    horas, guarda el historial en <code>data/precios.json</code> y commitea solo
+    si algo cambió. Esta página lee ese mismo archivo. Cero backend, cero costo.</p>
+    <p class="aviso-fuente">Fuente de práctica: los datos vienen de
+    <a href="https://books.toscrape.com">books.toscrape.com</a>, un sitio publicado
+    expresamente para aprender scraping. Los precios son ficticios.</p>
+  </section>
+
+  <section id="como" class="contenedor seccion">
+    <h2>Cómo funciona</h2>
+    <ol class="pasos">
+      <li><strong>Programado.</strong> <code>cron: 17 */6 * * *</code> dispara el
+      workflow cada 6 horas (también manual con <code>workflow_dispatch</code>).</li>
+      <li><strong>Respetuoso.</strong> El scraper se identifica con su propio
+      <code>User-Agent</code>, espera entre pedidos y verifica
+      <code>robots.txt</code> antes de descargar.</li>
+      <li><strong>Idempotente.</strong> Cada producto acumula puntos
+      <code>{ts, precio, disponible}</code> solo cuando el valor cambió: el repo
+      no se llena de commits vacíos.</li>
+      <li><strong>Publicado.</strong> Los datos se copian a
+      <code>docs/data/</code> y GitHub Pages sirve esta página y las alertas
+      ya evaluadas.</li>
+    </ol>
+    <div class="real-vs">
+      <h3>Qué es real y qué es simulado</h3>
+      <table>
+        <tbody>
+          <tr><td>Scraper + parser</td><td><span class="tag tag-real">Real</span> corre de verdad en cada corrida del workflow</td></tr>
+          <tr><td>Historial data/precios.json</td><td><span class="tag tag-real">Real</span> generado por corridas reales del scraper</td></tr>
+          <tr><td>Los precios mostrados</td><td><span class="tag tag-sim">Ficticios</span> books.toscrape.com es una fuente de práctica</td></tr>
+          <tr><td>Alertas de bajada</td><td><span class="tag tag-real">Real</span> evaluadas en Python con tests; se activan si baja ≥ umbral</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="alertas" class="contenedor seccion">
+    <h2>Alertas de bajada</h2>
+    <div id="lista-alertas" class="alertas" aria-live="polite">
+      <p class="estado">Cargando…</p>
+    </div>
+  </section>
+
+  <section id="evolucion" class="contenedor seccion">
+    <h2>Evolución de un producto</h2>
+    <div class="selector-fila">
+      <label for="producto">Producto</label>
+      <select id="producto"><option>Cargando…</option></select>
+    </div>
+    <div class="grafico-caja">
+      <canvas id="grafico" height="260" role="img"
+        aria-label="Gráfico de línea con la evolución del precio del producto seleccionado"></canvas>
+      <p id="grafico-vacio" class="estado" hidden>Sin datos para graficar.</p>
+    </div>
+    <p class="nota">Los precios de la fuente de práctica son estables: verás una
+    línea mayormente plana, que es lo honesto. Las alertas se prueban con datos
+    sintéticos en la suite de tests.</p>
+  </section>
+
+  <section id="tabla" class="contenedor seccion">
+    <h2>Comparativa</h2>
+    <div id="tabla-precios" aria-live="polite">
+      <p class="estado">Cargando…</p>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <p>Demo funcional de pipeline de datos sin servidor. Datos de una fuente de
+    práctica; código bajo licencia MIT.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
