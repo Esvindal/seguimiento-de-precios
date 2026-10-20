@@ -51,6 +51,22 @@ async function renderAlertas() {
   }
 }
 
+// ---------- ticker ----------
+function renderTicker(datos) {
+  const pista = document.getElementById("ticker-pista");
+  if (!pista) return;
+  const items = Object.entries(datos.productos).map(([id, p]) => {
+    const v = variacion(p);
+    const vari = v === null ? "" :
+      ' <i class="' + (v < 0 ? "v-baja" : v > 0 ? "v-sube" : "") + '">' +
+      (v > 0 ? "▲" : v < 0 ? "▼" : "=") + Math.abs(v).toFixed(1) + "%</i>";
+    return "<span>" + p.titulo.replace(/&/g, "&amp;").replace(/</g, "&lt;") +
+      "<strong>" + fmt.format(ultimoPunto(p).precio) + "</strong>" + vari + "</span>";
+  });
+  // duplicado para el bucle continuo
+  pista.innerHTML = items.join("") + items.join("");
+}
+
 // ---------- tabla ----------
 function renderTabla(datos) {
   const caja = document.getElementById("tabla-precios");
@@ -67,7 +83,7 @@ function renderTabla(datos) {
   for (const p of productos) {
     const v = variacion(p);
     const celdaV = v === null ? "—" : (v > 0 ? "+" : "") + v.toFixed(1) + "%";
-    const color = v === null ? "" : v < 0 ? "color:#1a6b4a" : v > 0 ? "color:#b23730" : "";
+    const color = v === null ? "" : v < 0 ? "color:#57d98f" : v > 0 ? "color:#ff8f7a" : "";
     const tr = document.createElement("tr");
     tr.innerHTML =
       '<td><a href="' + p.url + '">' + p.titulo + "</a></td>" +
@@ -108,7 +124,7 @@ function dibujar(puntos) {
   const Y = (v) => margen.a + (1 - (v - yMin) / (yMax - yMin)) * (h - margen.a - margen.b);
 
   // ejes y grilla
-  ctx.strokeStyle = "#e3dccf"; ctx.fillStyle = "#6d6557";
+  ctx.strokeStyle = "#2c291f"; ctx.fillStyle = "#a89f88";
   ctx.font = "11px 'IBM Plex Mono', monospace"; ctx.lineWidth = 1;
   for (let i = 0; i <= 4; i++) {
     const v = yMin + ((yMax - yMin) * i) / 4;
@@ -118,16 +134,16 @@ function dibujar(puntos) {
   }
 
   // línea
-  ctx.strokeStyle = "#1a6b4a"; ctx.lineWidth = 2; ctx.beginPath();
+  ctx.strokeStyle = "#e8b04b"; ctx.lineWidth = 2; ctx.beginPath();
   xs.forEach((i, k) => (k === 0 ? ctx.moveTo(X(i), Y(ys[k])) : ctx.lineTo(X(i), Y(ys[k]))));
   ctx.stroke();
 
   // puntos
-  ctx.fillStyle = "#1a6b4a";
+  ctx.fillStyle = "#e8b04b";
   xs.forEach((i, k) => { ctx.beginPath(); ctx.arc(X(i), Y(ys[k]), 3.2, 0, 7); ctx.fill(); });
 
   // etiquetas de fecha (primera y última)
-  ctx.fillStyle = "#6d6557";
+  ctx.fillStyle = "#a89f88";
   const f = (ts) => ts.slice(0, 10);
   ctx.fillText(f(puntos[0].ts), margen.i, h - 8);
   if (puntos.length > 1) {
@@ -140,6 +156,7 @@ async function init() {
   renderAlertas();
   try {
     const datos = await cargarJson("data/precios.json");
+    renderTicker(datos);
     renderTabla(datos);
     select.textContent = "";
     for (const [id, p] of Object.entries(datos.productos)) {
